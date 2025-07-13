@@ -21,3 +21,8 @@ allow-direct-references = true
 
 [tool.hatch.build]
 packages = ["src", "custom_tools"]
+
+[tool.uv.workspace]
+members = [
+    "brain/postgres/Aaron",
+]
